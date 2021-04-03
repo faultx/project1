@@ -1,4 +1,4 @@
-# IDE - VSCode
+# IDE - freamwork
 .DS_Store
 /dist/
 Thumbs.db
@@ -14,6 +14,7 @@ package-lock.json
 .env.*.local
 password.txt
 img/
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
@@ -21,13 +22,15 @@ yarn-error.log*
 *.log
 
 # Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
+## vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+## Local History for Visual Studio Code
+.history/
 
 # img
 *.jpg
@@ -35,6 +38,7 @@ yarn-error.log*
 *.pdf
 *.tif
 img/
+
 # videos
 *.mp4
 *.mp3
